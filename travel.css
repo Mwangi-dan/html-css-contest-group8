@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 148px;
+    position: relative;
+    top: 75px;
+
+}
+
+.wrapper {
+    position: relative;
+    background-color: #eefffa;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    color: #08382d;
+    font-family: Inter;
+}
+
+
+
+/* NavBar */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a.logo, .red-tourism {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 34px;
+    letter-spacing: -0.085em;
+    color: #08382D;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: -0.135em;
+    color: #08382D;
+}
+
+
+
+.menu a {
+    text-decoration: none;
+    color: #08382D;
+}
+
+
+
+.home,
+.travel,
+.entertainment,
+.about,
+.contact {
+    justify-items: auto;
+    gap: 50px;
+}
+
+.home:hover,
+.travel:hover,
+.entertainment:hover,
+.about:hover,
+.contact:hover {
+    opacity: 0.5;
+}
+
+.logo:hover {
+    opacity:0.6;
+}
+
+
+
+.home,
+.travel,
+.entertainment,
+.about,
+.contact {
+    gap: 10px;
+}
+
+ /* Landing page */
+.landing {
+    background-image: url('./public-travel/frame-1@3x.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    font-family: 'Francois One';
+    font-style: normal;
+}
+
+.container {
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.container h1 {
+    display: inline-block;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 123px;
+    text-align: center;
+    color: #134338;
+    margin: 0;
+}
+
+.container h2 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 123px;
+    text-align: center;
+    color: #EEFFFA;
+    margin: 0;
+}
+
+/* boxes */
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -92px;
+}
+
+.sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 40px;
+}
+
+.sect .topic {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 380px;
+    letter-spacing: 0.075em;
+    color: #21A59C;
+    margin-bottom: 0;
+}
+
+.sect p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.popular {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    color: #08382D;
+    margin: 20px;
+}
+
+.line {
+    position: relative;
+    border: 5px solid #21A59c;
+    margin: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pop-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour img {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.text-box {
+    display: inline-block;
+    width: 770px;
+    height: 430px;
+    background: #EEFFFA;
+    box-shadow: 18px 10px 80px 7px rgba(30, 22, 74, 0.25);
+    border-radius: 0px 0px 50px 50px;
+}
+
+.text-box b {
+    text-align: center;
+}
+
+
+.button-tours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #7CA8A1;
+    border-radius: 50px;
+    margin: 40px;
+    
+    transition: scale 800ms;
+}
+
+.button-tours a {
+    text-decoration: none;
+    color: #EEFFFA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.button-tours .button-background {
+    display: block;
+    position: relative;
+    background-color: #7CA8A1;
+    margin: 30px;
+}
+
+.button-tours:hover {
+    scale: 1.1;
+}
+
+.book-tour {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.book-tour h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.how-box {
+    background: #21A59C;
+    box-shadow: 0px 18px 36px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.details a {
+    text-decoration: none;
+    transition: scale 800ms;
+}
+
+.details a:hover {
+    scale: 1.1;
+}
+
+/* footer */
+footer {
+    border: 1px solid #08382D;
+    margin: 0px;
+    background-color: #7CA8A1;
+}
+
+.footer-text {
+    width: 556px;
+    height: 180px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.voyage {
+    color: #08382D;
+}
+
